@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 1995633941234381569}
   - component: {fileID: 536668467092039826}
   - component: {fileID: 818048861201356171}
-  - component: {fileID: -8962652407654381291}
+  - component: {fileID: 1209102374493929873}
   m_Layer: 3
   m_Name: AnimationSheet_Character_0
   m_TagString: Player
@@ -209,7 +209,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.72, y: 1.16}
   m_Direction: 0
---- !u!114 &-8962652407654381291
+--- !u!114 &1209102374493929873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 536668467092039826}
-  groundCheck: {fileID: 0}
+  groundCheck: {fileID: 4640676120569575562}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
