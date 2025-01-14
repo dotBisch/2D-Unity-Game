@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public KeyManager km;
+
     private float horizontal;
     private float speed = 4f;
     private float jumpingPower = 16f;
@@ -72,6 +74,18 @@ public class PlayerMovement : MonoBehaviour
             Vector3 localScale = transform.localScale;
             localScale.x *= -1f;
             transform.localScale = localScale;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Key"))
+        {
+            Destroy(other.gameObject);
+            km.keyCount++;
+        }
+        if (other.CompareTag("Portal") && km.keyCount == 5)
+        {
+                SceneController.instance.NextLevel();
         }
     }
 }
