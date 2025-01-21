@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      create-a-dark-2d-menu-background-in-a-hand-pa_ckcCIhN_0: -1356440914007405027
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
