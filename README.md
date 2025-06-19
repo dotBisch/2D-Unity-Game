@@ -1,3 +1,3 @@
 # 2D-Unity-Game
 
-#Random 2D Game
+#A 2D game created as part of the completion for the course HCI
